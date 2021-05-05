@@ -9,10 +9,6 @@ from torchnet.meter import AverageValueMeter
 
 # define parameters in class Config
 class Config(object):
-    """
-    定义一个配置类
-    """
-    # 0.参数调整
     data_path = './input2'
     virs = "result2"
     num_workers = 4  # numbers of thread
